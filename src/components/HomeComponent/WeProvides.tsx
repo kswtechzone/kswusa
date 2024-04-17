@@ -102,16 +102,16 @@ export default function WeProvides() {
         }}
       >
         <div className="order-2 desktop:order-1">
-          <div className="relative w-72 h-72 top-4 hidden md:block">
+          <div className="relative w-72 h-72 top-4">
             <div>
-              <div className="w-16 h-16 bg-blue-300 rounded-full absolute left-[40%] p-3">
+              <div className="w-16 h-16 bg-blue-300 rounded-full absolute left-[50%] p-3">
                 <Link to="#">
                   <img src="/weProvidesIcon/global.png" alt="" />
                 </Link>
               </div>
             </div>
             <div>
-              <div className="absolute left-0 w-16 h-16 p-3 bg-gray-300 rounded-full top-24">
+              <div className="absolute w-16 h-16 p-3 bg-gray-300 rounded-full right-2/3 top-1/2">
                 <Link to="#">
                   {/* <img src="/public/weProvidesIcon/react.png" alt="" /> */}
                   <FaReact className="text-4xl ml-[3px] " />
@@ -119,7 +119,7 @@ export default function WeProvides() {
               </div>
             </div>
             <div>
-              <div className="absolute w-16 h-16 p-3 bg-blue-300 rounded-full left-32 top-28">
+              <div className="absolute w-16 h-16 p-3 bg-blue-300 rounded-full left-2/3 top-1/2">
                 <Link to="#">
                   {/* <img src="/public/weProvidesIcon/react.png" alt="" /> */}
                   <FaNode className="text-4xl ml-[3px] " />

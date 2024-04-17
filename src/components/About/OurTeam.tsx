@@ -1,5 +1,7 @@
+import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import CEO from '../../assets/sanjay.jpg';
 import TeamCard from '../Card/TeamCard';
+import { Link } from 'react-router-dom';
 
 export default function OurTeam() {
   interface TeamMember {
@@ -115,7 +117,7 @@ export default function OurTeam() {
       img: '/picture/gopal.jpg',
       name: 'Gopal Pokhrel',
       role: ' Frontend Developer',
-      facebook: 'https://www.facebook.com/profile.php?id=100021728379892',
+      // facebook: 'https://www.facebook.com/profile.php?id=100021728379892',
       linkedin: 'https://www.linkedin.com/in/gopal-pokhrel-868a23238/',
       github: 'https://github.com/gopalpokhrel1',
     },
@@ -163,8 +165,34 @@ export default function OurTeam() {
 
         <div className="flex flex-col items-center w-4/5 m-auto gap-8 px-4 mt-20 md:flex-row md:justify-between md:items-center lg:justify-center">
           <div className=" w-full lg:w-3/5 m-auto">
-            <h1 className="font-bold text-[1.2rem] sm:text-[2rem]s sm:text-center md:text-left">
+            <h1 className="flex items-center gap-x-5 font-bold text-[1.2rem] sm:text-[2rem]s sm:text-center md:text-left">
               Sanjay Kumar Singh
+              <div className="flex gap-4">
+                <Link to="">
+                  <FaFacebook
+                    className="changeBg"
+                    style={{ fontSize: '20px', color: '#004AAD' }}
+                  />
+                </Link>
+                <Link to="">
+                  <FaLinkedin
+                    className="changeBg"
+                    style={{ fontSize: '20px', color: '#004AAD' }}
+                  />
+                </Link>
+                <Link to="/">
+                  <FaGithub
+                    className="changeBg"
+                    style={{ fontSize: '20px', color: '#004AAD' }}
+                  />
+                </Link>
+                <Link to="/">
+                  <FaTwitter
+                    className="changeBg"
+                    style={{ fontSize: '20px', color: '#004AAD' }}
+                  />
+                </Link>
+              </div>
             </h1>
             <p className="text-sm font-light sm:text-center md:text-left">
               CEO, IT & Business Consultant

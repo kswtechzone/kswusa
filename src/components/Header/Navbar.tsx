@@ -83,7 +83,7 @@ export default function NavBar() {
             <Link
               to="/ourteam"
               className={`text-xl font-bold text-gray-800 hover-underline-animation ${
-                location.pathname === '/ourteams' ? 'active' : ''
+                location.pathname === '/ourteam' ? 'active' : ''
               }`}
             >
               Teams
