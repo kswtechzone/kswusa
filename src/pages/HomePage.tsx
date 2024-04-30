@@ -24,7 +24,9 @@ function HomePage() {
           <h3 className="font-semibold text-base sm:text-lg lg:text-2xl xl:text-4xl text-center md:text-left">
             <span className="font-bold">KSW TechZone</span>
             <br />
-            <span className="font-light text-2xl">Empowering Your Digital Presence</span>
+            <span className="font-light text-2xl">
+              Empowering Your Digital Presence
+            </span>
           </h3>
           <br />
           <p className="font-light text-xs sm:text-sm lg:text-base xl:text-lg text-justify leading-relaxed">
@@ -37,7 +39,7 @@ function HomePage() {
       </div>
       <WeProvides />
       <Testimonial />
-      <OurPartner />
+      {/* <OurPartner /> */}
       <Our />
     </>
   );

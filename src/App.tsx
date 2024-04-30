@@ -11,6 +11,7 @@ import OurTeamPage from './pages/OurTeamPage';
 import AboutCompany from './components/About/AboutCompany';
 import WhyChooseUs from './components/About/WhyChooseUs';
 import { Footer, OurPlatform } from './components';
+import PageNotFound from './components/pageNotFound/PageNotFound.jsx';
 
 import './components/HomeComponent/blob.css';
 
@@ -28,6 +29,7 @@ export default function App() {
         <Route path="/ourteam" element={<OurTeamPage />} />
         <Route path="/whychooseus" element={<WhyChooseUs />} />
         <Route path="/platforms" element={<OurPlatform />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -9,7 +9,7 @@ const ContactMain: React.FC = () => {
       <div className="h-screen flex flex-col md:flex-row items-center justify-center">
         <div className=" lg:max-w-xl">
           <h2 className="py-5 text-[1.2rem] sm:text-[2rem] font-bold">
-            Let's <span className='text-[#004AAD]'>Connect</span>
+            Let's <span className="text-[#004AAD]">Connect</span>
           </h2>
           <p className="text-[0.8rem] sm:text-[1rem] text-justify py-2 text-gray-700">
             Whether you have a project in mind or just want to explore how KSW
@@ -24,14 +24,18 @@ const ContactMain: React.FC = () => {
                 Imadol,Lalitpur<br></br>
               </h2>
               <h2 className="py-1">
-                +977-9863198323<br></br>
+                +977-9821713100<br></br>
               </h2>
               <h2 className="py-1">
-                <Link to="mailto:">
+                <Link to="mailto:kswtechzone@gmail.com">
                   kswtechzone@gmail.com
                   <br />
                 </Link>
-                <span className="">contact@kswtechzone.com</span>
+                <span className="">
+                  <Link to="mailto:contact@kswtechzone.com">
+                    contact@kswtechzone.com
+                  </Link>
+                </span>
               </h2>
             </div>
           </div>
