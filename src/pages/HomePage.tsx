@@ -6,7 +6,6 @@ import {
   Testimonial,
   Our,
 } from '../components';
-import OurPartner from '../components/HomeComponent/OurPartner';
 
 function HomePage() {
   return (

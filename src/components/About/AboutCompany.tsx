@@ -130,7 +130,7 @@ const AboutCompany: React.FC = () => {
       <WhyChooseUs />
 
       {/* See our teams */}
-      <div className="flex items-center justify-center w-full my-0 text-white md:my-20">
+      <div className="flex items-center justify-center w-full my-0 text-white md:my-10 lg:my-20">
         <Link
           to="/ourteam"
           onClick={() => {
