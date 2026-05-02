@@ -29,5 +29,5 @@ jobs:
           server: 65.109.25.210
           username: ${{ secrets.SECRET_USERNAME }}
           password: ${{ secrets.SECRET_PASSWORD }}
-          server-dir: 65.109.25.210   # Adjust to your cPanel target folder
+          server-dir: /home3/kswtechzone/kswtechnology.com.np/  # Adjust to your cPanel target folder
           local-dir: dist/
